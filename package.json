@@ -1,0 +1,25 @@
+{
+  "name": "marina.roginskaya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "testUI": "npx playwright test --ui",
+    "report": "npx playwright show-report",
+    "allureFile": "npx allure awesome ./allure-results --single-file",
+    "test:api": "npx playwright test --grep \"@API\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "allure": "^3.0.0-beta.18",
+    "allure-playwright": "^3.4.1"
+  }
+}
