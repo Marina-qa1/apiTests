@@ -1,7 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { ChallengerService } from "../src/services/index";
-import { Api } from "../src/services/api.service";
-import { json } from "stream/consumers";
+
 let token;
 
 
